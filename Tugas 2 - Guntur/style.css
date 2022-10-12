@@ -1,0 +1,101 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 10px;
+}
+
+.header .namawebsite {
+    text-align: center;
+    margin: 15px;
+    color: rgb(29, 29, 29);
+}
+.header h1 {
+    font-size: 50px;
+}
+
+.navigasi {
+    overflow: hidden;
+    background-color: lightskyblue;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.navigasi a {
+    padding-right: 20px;
+    font-size: 15px;
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+}
+.navigasi a:hover {
+    color: rgb(172, 24, 24);
+}
+.navigasi ul li {
+    display: inline-block;
+}
+
+.penulis a {
+    text-decoration: none;
+    color: rgb(24, 162, 172);
+}
+.penulis a:hover {
+    color: rgb(172, 24, 24);
+}
+
+.kolomkiri {
+    float: left;
+    width: 900px;
+    font-size: 16px;
+}
+.kolomkiri p {
+    text-align: justify;
+}
+.kolomkiri .gambar {
+    text-align: center;
+}
+.kolomkanan {
+    float: right;
+    width: 400px;
+    text-align: center;
+}
+.kolomkanan a {
+    text-decoration: none;
+    color: rgb(24, 162, 172);
+}
+.kolomkanan a:hover {
+    color: rgb(172, 24, 24);
+}
+
+.footer {
+    clear:both;
+    padding:5px 10px;
+}
+.kategori {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+}
+.footer ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.footer li {
+display: list-item;
+text-align: -webkit-match-parent;
+}
+.tag {
+    text-decoration: none;
+    padding: 5px 12px;
+    border-radius: 15px;
+    border: 1px solid var(--br-list);
+    color: white;
+    background: rgb(79, 179, 241);
+}
