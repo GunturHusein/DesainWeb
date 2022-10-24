@@ -3,71 +3,91 @@
 }
 
 body {
+    margin: 0;
+    padding: 0;
     font-family: Arial, Helvetica, sans-serif;
     padding: 10px;
+    color: rgb(235, 235, 235);
+    background-color: #202020ff;
 }
 
 .header .namawebsite {
     text-align: center;
     margin: 15px;
-    color: rgb(29, 29, 29);
+    color: rgb(223, 223, 223);
 }
 .header h1 {
     font-size: 50px;
 }
 
 .navigasi {
-    overflow: hidden;
-    background-color: lightskyblue;
-    border-radius: 10px;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
+    position: sticky;
+    top: 0;
 }
-.navigasi a {
-    padding-right: 20px;
-    font-size: 15px;
+.navigasi ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ffd100ff;
+}
+.navigasi li {
     float: left;
+    background-color: #00509dff;
+}
+.navigasi li a {
     display: block;
-    color: black;
+    color: rgb(235, 235, 235);
     text-align: center;
+    padding: 14px 16px;
     text-decoration: none;
 }
-.navigasi a:hover {
+.navigasi li a:hover {
     color: rgb(172, 24, 24);
-}
-.navigasi ul li {
-    display: inline-block;
+    background-color: #ffd100ff;
 }
 
 .penulis a {
     text-decoration: none;
-    color: rgb(24, 162, 172);
+    color: #ffd100ff;
 }
 .penulis a:hover {
     color: rgb(172, 24, 24);
 }
 
+.container::after {
+    content: "";
+    clear: both;
+    display: table;
+    width: 1000px;
+}
+
 .kolomkiri {
     float: left;
-    width: 900px;
-    font-size: 16px;
+    width: 20%;
+    padding: 20px;
 }
-.kolomkiri p {
+.kolomutama {
+    float: left;
+    width: 60%;
+    font-size: 16px;
+    padding: 20px;
+}
+.kolomutama p {
     text-align: justify;
 }
-.kolomkiri .gambar {
+.kolomutama .gambar {
     text-align: center;
 }
 .kolomkanan {
-    float: right;
-    width: 400px;
+    float: left;
+    width: 20%;
     text-align: center;
+    padding: 20px;
 }
 .kolomkanan a {
     text-decoration: none;
-    color: rgb(24, 162, 172);
+    color: #ffd100ff;
 }
 .kolomkanan a:hover {
     color: rgb(172, 24, 24);
@@ -96,6 +116,21 @@ text-align: -webkit-match-parent;
     padding: 5px 12px;
     border-radius: 15px;
     border: 1px solid var(--br-list);
-    color: white;
-    background: rgb(79, 179, 241);
+    color: black;
+    background: #ffd100ff;
+}
+
+footer {
+    text-align: center;
+    font-size: 12px;
+    padding: 1px;
+    background-color:#333;
+    color: rgb(235, 235, 235);
+    display: block;
+}
+footer a {
+    text-decoration: none;
+    color: #ffd100ff;
+}footer a:hover {
+    color: rgb(235, 235, 235);
 }
