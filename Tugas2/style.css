@@ -43,7 +43,7 @@ body {
     text-decoration: none;
 }
 .navigasi li a:hover {
-    color: rgb(172, 24, 24);
+    color: #00509dff;
     background-color: #ffd100ff;
 }
 
@@ -52,7 +52,7 @@ body {
     color: #ffd100ff;
 }
 .penulis a:hover {
-    color: rgb(172, 24, 24);
+    color: #00509dff;
 }
 
 .container::after {
@@ -90,7 +90,7 @@ body {
     color: #ffd100ff;
 }
 .kolomkanan a:hover {
-    color: rgb(172, 24, 24);
+    color: #00509dff;
 }
 
 .footer {
