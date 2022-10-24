@@ -131,6 +131,7 @@ footer {
 footer a {
     text-decoration: none;
     color: #ffd100ff;
-}footer a:hover {
+}
+footer a:hover {
     color: rgb(235, 235, 235);
 }
