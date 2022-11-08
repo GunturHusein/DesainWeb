@@ -6,7 +6,6 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
-    padding: 10px;
     color: rgb(235, 235, 235);
     background-color: #202020ff;
 }
@@ -56,7 +55,7 @@ body {
 
 .kolomkiri {
     float: left;
-    width: 20%;
+    width: 15%;
     padding: 20px;
 }
 .kolomutama {
