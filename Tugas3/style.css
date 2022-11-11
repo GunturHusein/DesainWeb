@@ -91,6 +91,7 @@ td {
 .brdr1 {
     width: 40%; 
     float: left;
+    margin-left: 80px;
 }
 .brdr2 {
     width: 40%; 
@@ -99,9 +100,9 @@ td {
 }
 .brdr3 {
     width: 40%; 
-    float: left;
+    float: right;
     margin-top: 5px;
-    margin-left: 10px;
+    margin-right: 64px;
 }
 
 footer {
@@ -118,4 +119,22 @@ footer a {
 }
 footer a:hover {
     color: rgb(235, 235, 235);
+}
+
+.berita {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: rgb(117, 117, 117);
+}
+.berita h1 {
+    font-size: 40px;
+}
+.berita a {
+    text-decoration: none;
+    color: white;
+}
+.berita a:hover {
+    color: #333;
 }
